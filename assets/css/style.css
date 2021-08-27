@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background: linear-gradient(90deg, #102421 60%, #fff 40%);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1201,6 +1201,10 @@ section {
  
 }
 
+.add{
+  text-align: left;
+}
+
 #footer .footer-newsletter {
   padding: 100px 0;
   /*background: #102421;*/
@@ -1289,6 +1293,10 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+}
+
+.footer-links p {
+  text-align: center;
 }
 
 #footer .footer-top .footer-links ul {
